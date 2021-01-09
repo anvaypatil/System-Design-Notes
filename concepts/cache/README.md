@@ -4,40 +4,40 @@
 ## Type of cache polices
  Caching improves performance by keeping recent or often-used data items in memory locations that are faster or computationally cheaper to access than normal memory stores. When the cache is full, the algorithm must choose which items to discard to make room for the new ones.
 
-1. #### Bélády's algorithm
+1. #### First in first out (FIFO)
+The cache evicts the blocks in the order they were added, without any regard to how often or how many times they were accessed before.
 
-2. #### First in first out (FIFO)
+1. #### Last in first out (LIFO) or First in last out (FILO)
+The cache evicts the block added most recently first without any regard to how often or how many times it was accessed before.
 
-3. #### Last in first out (LIFO) or First in last out (FILO)
+1. #### Least recently used (LRU)
 
-4. #### Least recently used (LRU)
+1. #### Time aware least recently used (TLRU)
 
-5. #### Time aware least recently used (TLRU)
+1. #### Most recently used (MRU)
 
-6. #### Most recently used (MRU)
+1. #### Pseudo-LRU (PLRU)
 
-7. #### Pseudo-LRU (PLRU)
+1. #### Random replacement (RR)
 
-8. #### Random replacement (RR)
+1. #### Segmented LRU (SLRU)
 
-9. #### Segmented LRU (SLRU)
+1. #### Least-frequently used (LFU)
 
-10. #### Least-frequently used (LFU)
+1. #### Least frequent recently used (LFRU)
 
-11. #### Least frequent recently used (LFRU)
+1. #### LFU with dynamic aging (LFUDA)
 
-12. #### LFU with dynamic aging (LFUDA)
+1. #### Low inter-reference recency set (LIRS)
 
-13. #### Low inter-reference recency set (LIRS)
+1. #### CLOCK-Pro
 
-14. #### CLOCK-Pro
+1. #### Adaptive replacement cache (ARC)
 
-15. #### Adaptive replacement cache (ARC)
+1. #### AdaptiveClimb (AC)
 
-16. #### AdaptiveClimb (AC)
+1. #### Clock with adaptive replacement (CAR)
 
-17. #### Clock with adaptive replacement (CAR)
+1. #### Multi queue (MQ)
 
-18. #### Multi queue (MQ)
-
-19. #### Pannier: Container-based caching algorithm for compound objects
+1. #### Pannier: Container-based caching algorithm for compound objects
